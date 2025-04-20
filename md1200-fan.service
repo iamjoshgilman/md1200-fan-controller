@@ -1,0 +1,12 @@
+[Unit]
+Description=MD1200 Fan Controller
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/md1200-fan-controller.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
