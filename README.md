@@ -147,11 +147,11 @@ You should see:
 
   ```bash
   apt install picocom
-  picocom -b 115200 /dev/ttyS1
+  picocom -b 38400 /dev/ttyS1
   ```
 
   Then manually type:  
-  `set_speed 30`  
+  `set_speed 15`  
   (Press Enter)
 
 ---
